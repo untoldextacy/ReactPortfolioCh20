@@ -11,7 +11,8 @@ export default defineConfig({
   },
   base: './',
   server: {
-    port: process.env.PORT || 3000, // Ensure Vite binds to a port
+    port: process.env.PORT || 3000,
+    host: true
   },
 });
 

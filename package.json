@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "npm install && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 3000",
-    "start": "vite preview --port 3000"
+    "preview": "vite preview --host",
+    "start": "vite preview --host"
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
