@@ -5,10 +5,13 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    // Removed external option unless you need it
-    // rollupOptions: {
-    //   external: ['react-router-dom'],
-    // },
+    rollupOptions: {
+      external: ['react-router-dom'],
+    },
   },
-  base: '/', // Adjust to './' if deploying to a subdirectory
+  base: './',
+  server: {
+    port: process.env.PORT || 3000, // Ensure Vite binds to a port
+  },
 });
+
