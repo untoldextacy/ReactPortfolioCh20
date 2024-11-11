@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../components/Project';
 import readMePic from '../assets/img/readmegen2.png';
 import forumsPic from '../assets/img/forums.jpg';
-import './Portfolio.css';
+import './portfolio.css';
 
 const Portfolio = () => {
   const projects = [
