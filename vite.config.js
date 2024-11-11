@@ -12,7 +12,7 @@ export default defineConfig({
   base: './',
   server: {
     port: process.env.PORT || 3000,
-    host: true
+    host: '0.0.0.0'
   },
 });
 
