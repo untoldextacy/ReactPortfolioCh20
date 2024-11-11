@@ -1,0 +1,29 @@
+/* src/styles/Header.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+
+  
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+  }
+  
+  .navigation a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navigation .active {
+    border-bottom: 2px solid #ffd700; 
+  }
+  
