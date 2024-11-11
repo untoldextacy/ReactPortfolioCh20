@@ -1,6 +1,4 @@
 
-Here's a simple template for a README file for your portfolio project:
-
 Chuck Van-Lare - Web Developer Portfolio
 Welcome to my web development portfolio! This repository showcases a collection of my projects, technical skills, and personal achievements in web development. This portfolio is built with React, TailwindCSS, and other modern web technologies.
 
