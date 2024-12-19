@@ -4,6 +4,9 @@ import readMePic from '../assets/img/readmegen2.png';
 import forumsPic from '../assets/img/forums.jpg';
 import planesPic from '../assets/img/itinarary.jpg'
 import notePic from '../assets/img/notepadimg.png'
+import sdvx from '../assets/img/leftandright.jpg'
+import camera from '../assets/img/photography.jpg'
+
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -32,6 +35,18 @@ const Portfolio = () => {
       image: notePic,
       deployedLink: "https://texteditorch19.onrender.com/",
       githubLink: "https://github.com/untoldextacy/TextEditorCh19/"
+    },
+    {
+      title: "Personal SDVX Database",
+      image: sdvx,
+      deployedLink: "/",
+      githubLink: "https://github.com/untoldextacy/VoltexRankManager"
+    },
+    {
+      title: "React x Photography",
+      image: camera,
+      deployedLink: "https://photo-portfolio-0jue.onrender.com/",
+      githubLink: "https://github.com/untoldextacy/Photo-Portfolio"
     },
   ];
 
