@@ -6,6 +6,7 @@ import planesPic from '../assets/img/itinarary.jpg'
 import notePic from '../assets/img/notepadimg.png'
 import sdvx from '../assets/img/leftandright.jpg'
 import camera from '../assets/img/photography.jpg'
+import squidgame from '../assets/img/squidgames.jpg'
 
 import './portfolio.css';
 
@@ -37,10 +38,10 @@ const Portfolio = () => {
       githubLink: "https://github.com/untoldextacy/TextEditorCh19/"
     },
     {
-      title: "Personal SDVX Database",
-      image: sdvx,
+      title: "The Squid Games Experience",
+      image: squidgame,
       deployedLink: "/",
-      githubLink: "https://github.com/untoldextacy/VoltexRankManager"
+      githubLink: "https://github.com/untoldextacy/SquidGamesSeason2"
     },
     {
       title: "React x Photography",
