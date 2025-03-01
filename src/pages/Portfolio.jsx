@@ -40,8 +40,8 @@ const Portfolio = () => {
     {
       title: "The Squid Games Experience",
       image: squidgame,
-      deployedLink: "/",
-      githubLink: "https://github.com/untoldextacy/SquidGamesSeason2"
+      deployedLink: "https://squidgamev2.onrender.com/",
+      githubLink: "https://github.com/untoldextacy/SquidGameV2"
     },
     {
       title: "React x Photography",
